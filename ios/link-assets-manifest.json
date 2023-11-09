@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Agbalumo-Regular.ttf",
+      "sha1": "b0670b6c5fab78a1f8096936516c010a3134aa1b"
+    },
+    {
+      "path": "src/assets/fonts/Cabin-Italic.ttf",
+      "sha1": "6a92053a2c9f3df408135332e67231b9160bc485"
+    },
+    {
+      "path": "src/assets/fonts/Cabin-Variable.ttf",
+      "sha1": "e9411cf09432f0476329de4882df8d63229f080a"
+    }
+  ]
+}
