@@ -25,7 +25,7 @@ const RecentTask = ({recentTask}) => {
     return () => {
       clearInterval(interval);
     };
-  }, [currentIndex, recentTask.length]);
+  }, [currentIndex, recentTask?.length]);
 
   const ListEmptyComponent = () => (
     <LinearGradient

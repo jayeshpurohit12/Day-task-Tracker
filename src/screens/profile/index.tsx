@@ -13,6 +13,7 @@ import {scale} from '../../constants/Layout';
 import {AuthContext} from '../../context/AuthContext';
 import {useFetchProfile} from './hooks';
 import {useNavigation} from '@react-navigation/native';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 
 interface IValues {
   name: string;
@@ -60,6 +61,20 @@ const Profile = () => {
   return (
     <View style={[styles.container, {paddingTop: insets.top}]}>
       <Text style={styles.profileText}>Profile</Text>
+      <TouchableOpacity
+        style={{
+          position: 'absolute',
+          top: insets.top + scale(2),
+          right: scale(15),
+        }}
+        activeOpacity={0.9}
+        onPress={() => navigation.navigate('Setting')}>
+        <Ionicons
+          name="settings-outline"
+          size={24}
+          color={colors.black.default}
+        />
+      </TouchableOpacity>
 
       <Formik
         initialValues={initialValues}
